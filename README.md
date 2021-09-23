@@ -13,3 +13,10 @@ In the folder off this project run:
   expo install react-native-webview
 
 ```
+And
+
+```bash
+
+  yarn install
+
+```
