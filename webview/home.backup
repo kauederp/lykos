@@ -1,0 +1,24 @@
+<?php
+
+	echo $_SESSION['name'];
+
+?>
+<div class="d-flex">
+	<a id="home-small-logo-bg" href="?p=inicio">
+		<img class="logo-small" src="./modelo/logo.png" alt="logo">
+	</a>
+	<p id="title-home">LÝKOS</p>
+</div>
+<div id="list-home" class="row">
+	<ul class="container-fluid">
+		<li class="row"><a class="list-group-item text-center col-12" href="">care</a></li>
+		<li class="row"><a class="list-group-item text-center col-12" href="">rights</a></li>
+		<li class="row"><a class="list-group-item text-center col-12" href="">contats</a></li>
+		<li class="row"><a class="list-group-item text-center col-12" href="">donates</a></li>
+		<li class="row"><a class="list-group-item text-center col-12" href="">cool pages</a></li>
+		<li class="row"><a class="list-group-item text-center col-12" href="">subscribe here!</a></li>
+		<li class="row"><a class="list-group-item text-center col-12" href="">about</a></li>
+		<li id="help-home" class="row"><a class="list-group-item text-center col-12" href="">help</a></li>
+	</ul>
+</div>
+<br><br>
