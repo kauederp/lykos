@@ -24,7 +24,7 @@ class User{
 	}
 
 	public function getId()
-	{
+	{	
 		return $this->id;
 	}
 
@@ -36,6 +36,31 @@ class User{
 	       	$user = $stmt->fetch(PDO::FETCH_ASSOC);
 	        		
 	        return $user;
+	    }catch(PDOException $e) {
+	        echo 'Error: ' . $e->getMessage();
+	    }
+    }
+
+
+	public function update($name, $email, $password, $oldName, $oldEmail){
+		try{
+	        $db=Database::conexao();
+			$stmt = $db->prepare('UPDATE users SET name = '.$name.' and email = '.$email.' WHERE email = '.$oldEmail.' and passwd = '.$password.';');
+			$stmt->execute();
+			return true;
+	    }catch(PDOException $e) {
+	        echo 'Error: ' . $e->getMessage();
+	    }
+    }
+
+
+
+	public function excluir($name, $email, $password){
+		try{
+	        $db=Database::conexao();
+			$stmt = $db->prepare('DELETE FROM users WHERE name = "'.$email.'" and passwd = "'.$password.'";');
+			$stmt->execute();
+			return true;
 	    }catch(PDOException $e) {
 	        echo 'Error: ' . $e->getMessage();
 	    }

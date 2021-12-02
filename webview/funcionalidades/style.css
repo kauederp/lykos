@@ -1,0 +1,408 @@
+/*geral*/
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: 'Merriweather', serif;
+}
+body {
+  background-color: rgb(19,71,121);
+}
+
+/*header*/
+#cab {
+  background-color: #5b7596;
+  text-align: center;
+  height: 60px;
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  
+}
+#cab img{
+  width: 40px;
+  height:40px;
+  margin-left: -40vw;
+  margin-top: 10px;
+  position: absolute;
+}
+#cab h1{
+  font-size: 1.5em;
+  color: whitesmoke; 
+  padding-top: 15px; 
+}
+
+/*conscientizacao*/
+#conscientizacao img{
+  width: 64px;
+  filter: invert(85%);
+  margin-top: 8px;
+}
+#conscientizacao  {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke
+}
+#conscientizacao a{
+  padding:0;
+}
+#conscientizacao div{
+  border: 2px solid whitesmoke;
+  width: 80%;
+  height: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vw;
+  background-color: #426c96;
+  border-radius: 8px;
+}
+#conscientizacao  div:hover{
+  background-color: rgba(128, 79, 79, 0.199);
+  transition: 0.5;
+}
+#conscientizacao p{
+  width: 45%;
+  text-decoration: underline;
+  color: whitesmoke;
+}
+.icdi p{
+  float: left;
+  margin-left: 13vw;  
+  margin-top: 30px;
+  
+}
+.ices{
+  height: 400px;
+}
+.ices p{
+  float: right;
+  margin-top: 30px;
+  text-align: left;
+  margin-right: 10vw;
+}
+.ices img{
+  margin-left: 14vw;
+}
+#imv {
+  margin-top: 23px
+}
+
+/*ongs*/
+#ongs{
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#ongs p{
+  color: whitesmoke;
+  text-align: justify;
+  
+}
+
+/*clinicas*/
+#clinica {
+  text-align: center;
+  color: whitesmoke;
+}
+#clinica img{
+  border-radius: 50%
+}
+#clinica p a{
+  color: whitesmoke;
+}
+
+/*emergencia*/
+
+
+
+.emp{
+  position: relative;
+  top: 25px;
+  transform: translateY(-50%);
+  color: whitesmoke;
+  margin: 0 auto;
+}
+.bars-column a{
+  text-decoration: none;
+}
+.bars-column {
+  font-size: 1em;
+  border: 2px solid whitesmoke;
+  height: 50px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vw;
+  background-color: #426c96;
+  border-radius: 8px;
+  text-align: center;
+}
+#start img{
+  width:100px;
+}
+#start{
+  margin-top: 5vw;
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  color: whitesmoke;
+  align-items: center;
+  max-width: 100%;
+}
+#telemer img{
+  width: 100px;
+  margin-left: auto;
+}
+#telemer p{
+  margin-left: 3vw;
+  margin-right: auto;
+}
+#telemer{
+  color: whitesmoke;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#emergencia hr{
+
+  border:2px dashed white;
+  margin: 5vw auto;
+  width: 80%;
+}
+
+#form-config{
+  background-color: #426c96;
+}
+
+#txtarea{
+  border: 1px solid yellow;
+  color: white;
+  background-color: #000000;
+}
+
+/*config*/
+.bars-column a{
+  display: flex;
+  text-decoration: none;
+}
+.bars-column img{
+  width: 40px;
+  margin-top: 5px;
+  margin-left: 4vw;
+  margin-right: -10vw;
+}
+.configp{
+  position: relative;
+  top: 15px;
+  color: whitesmoke;
+  margin: 0 auto;
+}
+
+
+/*assine aqui*/
+.assinep{
+  position: relative;
+  top: 15px;
+  color: whitesmoke;
+  margin: 0 auto;
+  width: 90%;
+  text-align: justify;
+}
+#assine{
+  display: block;
+}
+#assine .bars-column{
+  height: 220px;
+}
+#assine .bars-column img{
+  width: 200px;
+  height: 100px;
+  margin: 10px 0;
+  border-radius: 2vw;
+}
+#assinebut .bars-column{
+  height: 110px;
+}
+#assinebut .bars-column a{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(212, 63, 63);
+  width: 100px;
+  margin-top: 10px;
+  border: 2px solid whitesmoke;
+  border-radius:10vw;
+  color: whitesmoke;
+  padding: 5px;
+
+}
+
+
+/*cuidados*/
+#amorpet img{
+  width: 100px;
+  margin-left: auto;
+}
+#amorpet p{
+  margin-left: 3vw;
+  margin-right: auto;
+}
+#amorpet{
+  margin-top: 3vw;
+  color: whitesmoke;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vw;
+}
+
+#menuBtn{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 2em;
+  background: none;
+  border: none;
+  color: white;
+}
+
+#menu{
+  position: absolute;
+  top: 60px;
+  width: 80%;
+  right: 0;
+  z-index: 999;
+  display: none;
+}
+
+#menu ul{
+  list-style: none;
+}
+
+#menu ul li{
+  background-color: rgb(59,92,143);
+  border-bottom: 1px solid white;
+}
+
+#menu-config{
+
+  border-radius: 0px 0px 13px 13px;
+  border: 0px solid none;
+}
+#menu-info{
+  border-radius: 13px 13px 0px 0px;
+  border: 0px solid none;
+}
+
+#btnBack{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 34vw;
+  font-size: 30px;
+  left: 2vw;
+}
+#btnNext{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 34vw;
+  font-size: 30px;
+  right: 2vw;
+}
+#divDica{
+  text-align: justify;
+  background-color: rgba(0, 0, 0,0.4);
+}
+
+#assineBtn{
+  background-image: linear-gradient(darkred, yellow); 
+}
+
+#assinebut{
+  min-height:200px ;
+}
+#assinebut div img{
+  float: right;
+}
+
+
+
+/*classes gerais*/
+
+.rounded-4{
+  border-radius: 8px;
+}
+
+.rounded-20{
+  border-radius: 20px;
+}
+
+
+.estrutura{
+  text-align: center;
+}
+.estrutura a {
+  text-decoration: underline;
+}
+.estrutura p{
+  margin-bottom: 5vw;
+}
+.iconl{
+  width: 200px;
+  margin-bottom: 5vw;
+}
+.redes{
+  display: block;
+  text-align: center;
+}
+.redes img{
+  width: 50px;
+  padding: 0 2vw;
+  margin-bottom: 10vw;
+}
+.bars-column{
+  font-size: 1em;
+  border: 2px solid whitesmoke;
+  height: 50px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vw;
+  background-color: #426c96;
+  border-radius: 8px;
+  text-align: center;
+}
+.bars-column-kaue{
+  font-size: 1em;
+  border: 2px solid whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vw;
+  background-color: #426c96;
+  border-radius: 8px;
+
+}
+
+.texto-amostra{
+  text-align: justify;
+}
+.texto-escondido{
+  text-align: justify;
+  display: none;
+}
+
+

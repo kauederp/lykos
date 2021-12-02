@@ -1,0 +1,63 @@
+/* class */
+.bg-black{
+    background-color: black;
+}
+
+.inicio-logos{
+    width: 50px;
+    height: 50px;
+}
+.bg-red{
+  background-color: rgb(255, 150, 150);
+}
+
+.ph-light::placeholder{
+    color: white;
+}
+
+
+
+/* ids */
+#sombraLua{
+    background-color: rgba(255, 255, 255, 0.288);
+    width:55vw;
+    height: 55vw;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#cruz{
+    position: absolute;
+    top: 29vw;
+    right: 30vw;
+    font-size: 18vw;
+    color: midnightblue;
+    margin: 0;
+}
+
+#borda-icon{
+    border: 15px solid rgba(255, 255, 255, 0.507);
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    
+}
+#borda-icon div{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0vw 5vw;
+}
+#icon-registro{
+    margin-top: 8vw;
+    width: 20vw;
+    margin-left: 4vw;
+}
+
+
+/* tags */
+*{
+    font-family: 'Merriweather', serif;
+}
+body{
+    background-color: rgb(19,71,121);
+}

@@ -17,22 +17,24 @@
     <title>Lykos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="container-fluid">
 <?php
-
-	$url="http://localhost/lykos/webview/";
+	$host = "localhost";
+	$url="http://".$host.$_SERVER['PHP_SELF'];
 	if(isset($_GET['p']))
 	{
 	    if($_GET['p']=="inicio")
 			include("inicio.php");
 	    else if($_GET['p']=="home")
-			include("home.php");
-	    else if($_GET['p']=="register")
-			include("register.php");
-	    else if($_GET['p']=="login")
-			include("login.php");
+			echo "";
+	    else if($_GET['p']=="registro")
+			include("registro.php");
+		else if($_GET['p']=="editar")
+			include("editar.php");
+	    else if($_GET['p']=="entrar")
+			include("entrar.php");
 		else if($_GET['p']=="registerEO")
 			include("registerEO.php");
 	    else
@@ -47,7 +49,6 @@
 
 
 ?>
-<script src="./dicas.js"></script>
 <script src="./script.js"></script>
 </body>
 </html>
