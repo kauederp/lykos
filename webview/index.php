@@ -21,7 +21,7 @@
 </head>
 <body class="container-fluid">
 <?php
-	$host = "localhost";
+	$host = "10.0.0.107";
 	$url="http://".$host.$_SERVER['PHP_SELF'];
 	if(isset($_GET['p']))
 	{

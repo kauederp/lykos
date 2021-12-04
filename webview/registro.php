@@ -25,7 +25,7 @@
 
 <form method="POST" action="" class="fs-1 d-flex flex-column align-items-center">
 	<input pattern="[a-zA-ZáóêâõãíÍÁÓÊÂÕ]+$" class="ph-light col-8 bg-transparent my-3 text-center text-light border-0 border-bottom border-light" placeholder="Nome" id="input-name-register" type="text" name="name">
-	<input pattern="[a-zA-Z0-9@.]+$" class="ph-light col-8 bg-transparent my-3 text-center text-light border-0 border-bottom border-light" placeholder="Email" id="input-email-register" type="email" name="email">
+	<input pattern="[a-zA-Z0-9@-.]+$" class="ph-light col-8 bg-transparent my-3 text-center text-light border-0 border-bottom border-light" placeholder="Email" id="input-email-register" type="email" name="email">
 	<input pattern="[a-zA-Z0-9,.~^\]/~´[=-¨&*(#@!)]+$" class="ph-light col-8 bg-transparent my-3 text-center text-light border-0 border-bottom border-light" placeholder="Password" id="input-password-register" type="password" name="password">
 	<br>
 	<div class="row col-8  rounded-pill bg-black">

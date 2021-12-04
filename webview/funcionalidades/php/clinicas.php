@@ -18,7 +18,7 @@
 <body>
     <header id="cab">
       <img src="../IMAGENS PROJETO/iconpequeno.png" alt="patapng">
-      <h1>⠀⠀CLÍNICAS</h1>
+      <h1>CLÍNICAS</h1>
       <button id="menuBtn"><i class="bi bi-list"></i></button>
       <nav id="menu" class="bg-transparent rounded-5">
       <ul class="text-light container-fluid p-0 m-0">
@@ -82,14 +82,8 @@
         <p>Telefone: <a href="tel:+55051986204828">(51) 98620-4828</a><br>Preço consulta: R$ 180,00</p>
       </div>
       <div class="redes">
-        <a href="#" target="_blank">
-          <img src="../IMAGENS PROJETO/instarede.png" alt="">
-        </a>
-        <a href="#" target="_blank">
+        <a href="https://www.google.com.br/maps/place/R.+Carlos+Sander,+2137+-+Recreio,+Taquara+-+RS,+95600-000/@-29.6545323,-50.7923356,17z/data=!3m1!4b1!4m5!3m4!1s0x9519191dbded4edd:0xd6fef8fcaf107ddf!8m2!3d-29.654537!4d-50.7901469" target="_blank">
           <img src="../IMAGENS PROJETO/localizacao.png" alt="">
-        </a>
-        <a href="#" target="_blank">
-          <img src="../IMAGENS PROJETO/site.png" alt="">
         </a>
       </div>
     </div>
@@ -100,14 +94,11 @@
         <p>Telefone: <a href="tel:+5505135414460">(51) 3541-4460</a><br>Preço consulta: R$ 90,00</p>
       </div>
       <div class="redes">
-        <a href="#" target="_blank">
+        <a href="https://www.instagram.com/clinivettaquara/" target="_blank">
           <img src="../IMAGENS PROJETO/instarede.png" alt="">
         </a>
-        <a href="#" target="_blank">
+        <a href="https://goo.gl/maps/BuXa54WbFRMVUupy9" target="_blank">
           <img src="../IMAGENS PROJETO/localizacao.png" alt="">
-        </a>
-        <a href="#" target="_blank">
-          <img src="../IMAGENS PROJETO/site.png" alt="">
         </a>
       </div>
     </div>
@@ -118,14 +109,11 @@
         <p>Telefone: <a href="tel:+55051982424111">(51) 98242-4111</a><br>Preço consulta: R$ 90,00</p>
       </div>
       <div class="redes">
-        <a href="#" target="_blank">
+        <a href="https://www.instagram.com/univettaquara/" target="_blank">
           <img src="../IMAGENS PROJETO/instarede.png" alt="">
         </a>
-        <a href="#" target="_blank">
+        <a href="https://goo.gl/maps/93GTWiS6TX4wuS216" target="_blank">
           <img src="../IMAGENS PROJETO/localizacao.png" alt="">
-        </a>
-        <a href="#" target="_blank">
-          <img src="../IMAGENS PROJETO/site.png" alt="">
         </a>
       </div>
     </div>
@@ -136,13 +124,10 @@
         <p>Telefone: <a href="tel:+55051998814670">(51) 99881-4670</a><br>Preço consulta: R$ 180,00</p>
       </div>
       <div class="redes">
-        <a href="#" target="_blank">
-          <img src="../IMAGENS PROJETO/instarede.png" alt="">
-        </a>
-        <a href="#" target="_blank">
+        <a href="https://goo.gl/maps/EWUsAMHJ8roxNUEz9" target="_blank">
           <img src="../IMAGENS PROJETO/localizacao.png" alt="">
         </a>
-        <a href="#" target="_blank">
+        <a href="https://veterinariavetemcasa.com.br/" target="_blank">
           <img src="../IMAGENS PROJETO/site.png" alt="">
         </a>
       </div>

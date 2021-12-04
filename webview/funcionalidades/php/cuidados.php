@@ -19,23 +19,23 @@
       <h1 class="text-center">⠀⠀CUIDADOS</h1>
       <button id="menuBtn"><i class="bi bi-list"></i></button>
       <nav id="menu" class="bg-transparent rounded-5">
-        <ul class="text-light container-fluid p-0 m-0">
+      <ul class="text-light container-fluid p-0 m-0">
           <li id="menu-info" class="m-0 row p-3">
-            <a class="row justify-content-center text-center text-decoration-none text-light fw-bold" href="info.php">Informações</a>
+            <a class="row justify-content-center text-center text-decoration-none text-light fw-bold" href="info.php?name=<?php echo $_GET['name'];?>">Informações</a>
           </li>
           <li class="m-0 row p-3">
-            <a class="row justify-content-center text-center text-decoration-none text-light fw-bold" href="./contatos.php">Contatos</a>
+            <a class="row justify-content-center text-center text-decoration-none text-light fw-bold" href="./contatos.php?name=<?php echo $_GET['name'];?>">Contatos</a>
           </li>
-          <li class="m-0 row p-3"><a class="row justify-content-center text-center text-decoration-none text-light fw-bold" href="./emergencia.php">Emergências</a>
-          </li>
-          <li class="m-0 row p-3">
-            <a href="./cuidados.php" class="row justify-content-center text-center text-decoration-none text-light fw-bold">Cuidados</a>
+          <li class="m-0 row p-3"><a class="row justify-content-center text-center text-decoration-none text-light fw-bold" href="./emergencia.php?name=<?php echo $_GET['name'];?>">Emergências</a>
           </li>
           <li class="m-0 row p-3">
-            <a href="assine.php" class="row justify-content-center text-center text-decoration-none text-light fw-bold">Assine Aqui!</a>
+            <a href="./cuidados.php?name=<?php echo $_GET['name'];?>" class="row justify-content-center text-center text-decoration-none text-light fw-bold">Cuidados</a>
+          </li>
+          <li class="m-0 row p-3">
+            <a href="assine.php?name=<?php echo $_GET['name'];?>" class="row justify-content-center text-center text-decoration-none text-light fw-bold">Assine Aqui!</a>
           </li>
           <li id="menu-config" class="m-0 border-0 row p-3">
-            <a href="config.php" class="row justify-content-center text-center text-decoration-none text-light fw-bold">Configurações</a>
+            <a href="config.php?name=<?php echo $_GET['name'];?>" class="row justify-content-center text-center text-decoration-none text-light fw-bold">Configurações</a>
           </li>
         </ul>
       </nav>
@@ -48,17 +48,17 @@
     </div>
     <!-- limite -->
     <div class="bars-column">
-      <a href="./banhos.php">
+      <a href="./banhos.php?name=<?php echo $_GET['name'];?>">
         <p class="emp">Banhos</p>
       </a>
     </div>
     <div class="bars-column">
-      <a href="./nutricao.php">
+      <a href="./nutricao.php?name=<?php echo $_GET['name'];?>">
         <p class="emp">Nutrição</p>
       </a>
     </div>
     <div class="bars-column">
-      <a href="./ajudaAnimalRua.php">
+      <a href="./ajudaAnimalRua.php?name=<?php echo $_GET['name'];?>">
         <p class="emp">Ajudar animais de rua</p>
       </a>
     </div>

@@ -22,7 +22,7 @@
       <nav id="menu" class="bg-transparent rounded-5">
       <ul class="text-light container-fluid p-0 m-0">
           <li id="menu-info" class="m-0 row p-3">
-            <a class="row justify-content-center text-center text-decoration-none text-light fw-bold" href="informacoes.php?name=<?php echo $_GET['name'];?>">Informações</a>
+            <a class="row justify-content-center text-center text-decoration-none text-light fw-bold" href="info.php?name=<?php echo $_GET['name'];?>">Informações</a>
           </li>
           <li class="m-0 row p-3">
             <a class="row justify-content-center text-center text-decoration-none text-light fw-bold" href="./contatos.php?name=<?php echo $_GET['name'];?>">Contatos</a>
@@ -43,19 +43,19 @@
     </header>
     <br><br><br>
   <section id="conscientizacao">
-    <a href="./ongs.php">
+    <a href="./ongs.php?name=<?php echo $_GET['name'];?>">
       <div href="#" id="orga" class="icdi">
         <img src="../IMAGENS PROJETO/ongs.png" alt="">
         <p id="imv">Organizações não governamentais</p>
       </div>
     </a>
-    <a href="./clinicas.php">
+    <a href="./clinicas.php?name=<?php echo $_GET['name'];?>">
       <div class="icdi">
         <img src="../IMAGENS PROJETO/veticon.png" alt="">
         <p>Veterinários</p>
       </div>
     </a>
-    <a class="" href="./perfisex.php">
+    <a class="" href="./perfisex.php?name=<?php echo $_GET['name'];?>">
       <div class="icdi">
         <img src="../IMAGENS PROJETO/redes.png" alt="">
         <p>Perfis exemplo</p>

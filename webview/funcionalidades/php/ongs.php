@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <style>a{text-decoration:none}</style>
   </head>
 </head>
 <body>
@@ -49,13 +50,13 @@
         <p>Os resgates e cuidados diários dos 230 cães do Sítio são realizados 100% com doações. Conheça mais sobre a ONG nos links abaixo.</p>
       </div>
       <div class="redes">
-        <a href="#" target="_blank">
+        <a href="https://www.instagram.com/sitio4patas/" target="_blank">
           <img src="../IMAGENS PROJETO/instarede.png" alt="">
         </a>
-        <a href="#" target="_blank">
+        <a href="https://goo.gl/maps/kMDzjyv4adFekqhM7" target="_blank">
           <img src="../IMAGENS PROJETO/localizacao.png" alt="">
         </a>
-        <a href="#" target="_blank">
+        <a href="https://www.sitio4patas.com/" target="_blank">
           <img src="../IMAGENS PROJETO/site.png" alt="">
         </a>
       </div>
@@ -69,13 +70,11 @@
           a superpopulação de animais. </p>
       </div>
       <div class="redes">
-        <a href="#" target="_blank">
+        <a href="https://www.instagram.com/apatataquara/" target="_blank">
           <img src="../IMAGENS PROJETO/instarede.png" alt="">
         </a>
-        <a href="#" target="_blank">
-          <img src="../IMAGENS PROJETO/localizacao.png" alt="">
-        </a>
-        <a href="#" target="_blank">
+        
+        <a href="http://apata.org.br/" target="_blank">
           <img src="../IMAGENS PROJETO/site.png" alt="">
         </a>
       </div>

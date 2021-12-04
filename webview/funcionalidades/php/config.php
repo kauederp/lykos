@@ -46,12 +46,15 @@
   <br>
   <br>
   <?php
-    
+    require_once("../../classes/Sugestao.php");
+    $Sugestao = new Sugestao();
+
     if(isset($_POST['enviar'])){
       $texto = $_POST['sugestao'];
+      $Sugestao->setTexto($texto);
     }
     if(isset($_GET['sair']) and $_GET['sair'] == 'y'){
-      header('Location:  http://localhost/lykos/webview/index.php?p=inicio');
+      header('Location:  /lykos/webview/index.php?p=inicio');
         
     }
 
@@ -59,7 +62,7 @@
   <section id="configuracoes" class="mt-5">
     <!-- limite -->
     <div class="bars-column">
-      <a href="http://localhost/lykos/webview/index.php?p=editar&name=<?php echo $_GET['name'];?>">
+      <a href="/lykos/webview/index.php?p=editar&name=<?php echo $_GET['name'];?>">
         <img src="../IMAGENS PROJETO/perfil.png" alt="">
         <p class="configp">Perfil</p>
       </a>
@@ -79,7 +82,7 @@
 		<textarea id="txtarea" class="col-8" name="sugestao" id="" cols="30" rows="10"></textarea>
 	  </div>
 		<div class="row justify-content-center">
-			<input class="btn btn-light col-5" type="submit" value="enviar" name="enviar">
+			<input class="btn btn-light col-5 mb-3" type="submit" value="enviar" name="enviar">
 		</div>
     </form>
   </section>

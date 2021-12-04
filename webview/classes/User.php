@@ -41,11 +41,30 @@ class User{
 	    }
     }
 
-
-	public function update($name, $email, $password, $oldName, $oldEmail){
+	public function getUser($name){
 		try{
 	        $db=Database::conexao();
-			$stmt = $db->prepare('UPDATE users SET name = '.$name.' and email = '.$email.' WHERE email = '.$oldEmail.' and passwd = '.$password.';');
+	        $stmt = $db->query("SELECT id,name, email FROM users WHERE name = '".$name."';");
+	       	$user = $stmt->fetch(PDO::FETCH_ASSOC);
+	        		
+	        return $user;
+	    }catch(PDOException $e) {
+	        echo 'Error: ' . $e->getMessage();
+	    }
+    }
+
+	/**
+	 * @method update atualiza usuario
+	 * @param $name nome
+	 * @param $email email antigo
+	 * @param $password senha
+	 * @param $oldName
+	 * @param $oldEmail
+	 */
+	public function update($id,$name, $email, $password){
+		try{
+	        $db=Database::conexao();
+			$stmt = $db->prepare('UPDATE users SET `name` = "'.$name.'" , email = "'.$email.'" , passwd = "'.$password.'" WHERE id = '.$id.';');
 			$stmt->execute();
 			return true;
 	    }catch(PDOException $e) {

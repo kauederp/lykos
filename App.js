@@ -9,7 +9,8 @@ export default function App() {
 
     <WebView 
       style={styles.container}
-      source={{ uri: 'http://10.0.0.105/lykos/webview/?p=inicio' }}
+      // alterar o ip para testes 
+      source={{ uri: 'http://10.0.0.107/lykos/webview/?p=inicio' }}
     />
 
   );
@@ -18,7 +19,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#6b5876',
+    backgroundColor: '#134779',
     alignItems: 'center',
     justifyContent: 'center',
   },

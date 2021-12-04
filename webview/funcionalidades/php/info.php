@@ -61,7 +61,7 @@
         <p>Testes em animais</p>
       </div>
     </a>
-    <a href="#">
+    <a href="./info/mausTratos.php?name=<?php echo $_GET['name'];?>">
       <div class="ices">
         <img src="../IMAGENS PROJETO/maus tratos.png" alt="">
         <p>Maus tratos</p>
@@ -79,13 +79,13 @@
         <p>Adoção</p>
       </div>
     </a>
-    <a href="./info/ongs.php?name=<?php echo $_GET['name'];?>">
+    <a href="./info/ongs_info.php?name=<?php echo $_GET['name'];?>">
       <div class="icdi">
         <img src="../IMAGENS PROJETO/ongs.png" alt="">
         <p id="imv">Organizações nao Governamentais</p>
       </div>
     </a>
-    <a href="clinicas.php?name=<?php echo $_GET['name'];?>">
+    <a href="./info/vet.php?name=<?php echo $_GET['name'];?>">
       <div class="ices">
         <img src="../IMAGENS PROJETO/veticon.png" alt="">
         <p>Veterinários</p>
